@@ -39,8 +39,6 @@ header > img{
     margin-top: 20vh;
     width: 100%;
     position: fixed;
-    left: 0;
-    right: 0;
     transition: 0.2s;
 }
 .begin:hover{
