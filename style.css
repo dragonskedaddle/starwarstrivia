@@ -8,7 +8,7 @@
     color: #fff;
 }
 body, html{
-    height: 100vh;
+    height: auto;
     width: 100vw;
     overflow: hidden;
 }
