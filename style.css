@@ -21,7 +21,7 @@ body, html{
 }
 
 header{
-    min-height: 25vh;
+    height: 25vh;
 }
 header > img{
     height: 100%;
@@ -103,7 +103,7 @@ header > img{
 
 @media screen and (max-width: 541px){
     header{
-        min-height: 20vh;
+        height: 20vh;
     }
     .container{
         height: 80vh;
