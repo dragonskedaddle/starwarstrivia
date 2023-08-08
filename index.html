@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Epicest (un)official Star Wars trivia</title>
+        <title>(un)official Star Wars trivia</title>
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <link rel="stylesheet" href="./sweetalert2.min.css">
         <link rel="stylesheet" href="./stars.css">
         <link rel="stylesheet" href="./style.css">
 
@@ -16,22 +17,24 @@
         <!--star components-->
         <div id='stars'></div>
         <div id='stars2'></div>
-        <div id='stars3'></div>
 
         <header class="flex-center header">
             <img src="./assets/header.svg">
         </header>
+        <button class="begin">Begin your journey</button>
         <div class="flex-center container">
-            <div class="question-form">
-                <div class="question">a</div>
+            <div class="flex-center question-form">
+                <div class="question">Which Star Wars movie was filmed entirely in the studio</div>
                 <div class="answer-container">
-                    <div class="answer"></div>
-                    <div class="answer"></div>
-                    <div class="answer"></div>
-                    <div class="answer"></div>
+                    <div class="answer">Revenge of the Sith</div>
+                    <div class="answer">Return of the Jedi</div>
+                    <div class="answer">Star Wars</div>
+                    <div class="answer">Attack of the Clones</div>
                 </div>
             </div>
         </div>
-        <script src='./script.js'></script>
+
+        <script src="./sweetalert2.all.min.js"></script>
+        <script type="module" src='./script.js'></script>
     </body>
 </html>
