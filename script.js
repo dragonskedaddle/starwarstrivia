@@ -64,7 +64,7 @@ $(".answer").click(function() {
             confirmButtonColor: "#e6d11c",
             scrollbarPadding: false,
         }).then(() => {
-            location.reload()
+            window.location.reload()
         })
     } else {
         let nextQuestion = getRandom(1, numberOfQuestions)
