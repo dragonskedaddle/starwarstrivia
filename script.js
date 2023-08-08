@@ -24,6 +24,8 @@ function resetQuestion(qNo){
 
 $(".begin").click(function(){
     $(".begin").animate({opacity: 0}, 750, function(){
+        $("body").css("height", "auto")
+        $("html").css("height", "auto")
         $(".begin").css("display", "none")
         $(".container").css("display", "flex")
         $(".container").animate({opacity: 1}, 750)
