@@ -1,7 +1,7 @@
 import questions from './assets/questions.json' assert { type: 'json' };
 
+console.log(questions)
 const width = screen.width;
-console.log(width > 541)
 const numberOfQuestions = Object.keys(questions).length
 const initialQuestion = getRandom(1, numberOfQuestions)
 let previousQuestions = [initialQuestion,]
