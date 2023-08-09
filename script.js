@@ -1035,7 +1035,6 @@ $(".begin").click(function(){
 $(".answer").click(function() {
     if($(this).text() == data["options"][parseInt(data["answer"])]){
         numberOfCorrectAnswers++
-        console.log(numberOfCorrectAnswers)
     }
 
     $(".correct-answer").removeClass('correct-answer')
@@ -1079,5 +1078,15 @@ $(".answer").click(function() {
     }
 })
 
+$(".answer").mousedown(function(){
+    if($(this).text() == data["options"][parseInt(data["answer"])]){
+        $(this).animate({backgroundColor: "rgb(23, 122, 53, 1)"}, 400)
+    } else {
+        $(this).animate({backgroundColor: "rgb(161, 26, 26, 1)"}, 400)
+    }
+})
+$(".answer").mouseup(function(){
+    $(this).animate({backgroundColor: "rgb(82, 82, 82, 0.5)"}, 300)
+})
 
 resetQuestion(initialQuestion) //pick random question on start
