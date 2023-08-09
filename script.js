@@ -1080,9 +1080,9 @@ $(".answer").click(function() {
 
 $(".answer").mousedown(function(){
     if($(this).text() == data["options"][parseInt(data["answer"])]){
-        $(this).animate({backgroundColor: "rgb(23, 122, 53, 1)"}, 400)
+        $(this).animate({backgroundColor: "rgb(23, 122, 53, 1)"}, 150)
     } else {
-        $(this).animate({backgroundColor: "rgb(161, 26, 26, 1)"}, 400)
+        $(this).animate({backgroundColor: "rgb(161, 26, 26, 1)"}, 150)
     }
 })
 $(".answer").mouseup(function(){
